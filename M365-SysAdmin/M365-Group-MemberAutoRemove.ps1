@@ -1,5 +1,7 @@
-This script will automatically remove users from a security group after a given number of days
-
+<#
+This script will automatically remove users from a security group after a given number of days.
+App Registration is needed with API permissions to read the Unified Audit Log, and read and update M365 security group members.
+#>
 ###DEFINE VARIABLES###
 
 #Add ObjectID of group to be maintained, tenantID, app registration ID and app registration secret below
